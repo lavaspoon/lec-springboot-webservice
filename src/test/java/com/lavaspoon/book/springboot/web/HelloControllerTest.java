@@ -10,7 +10,7 @@ import org.springframework.test.web.servlet.ResultActions;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-
+//테스트 웹서비스
 @RunWith(SpringRunner.class)
 @WebMvcTest(controllers = HelloController.class)
 public class HelloControllerTest {
